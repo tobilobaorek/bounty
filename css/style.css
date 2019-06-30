@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(12, 12, 12);
+    color: #fff;
+}
+
+.info-block {
+    background-image:  linear-gradient(to right, #6db9ef, #7ce08a);
+
+}
+.page-header {
+    
+    height: 5vh;
+    background: greenyellow;
+
+
+}
+
+.cash-giveaway {
+    color: gold;
+    font-size: 2em;
+}
+ 
+.my-list ul {
+    list-style: none;
+}
+ 
+
+ .my-list li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.box-text_wrap-list ul {
+    list-style: none;
+}
+.box-text_wrap-list li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em; 
+    content: "\2022";
+    color: rgb(0, 225, 255);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+
+}
+
+
+.wrap-list ul {
+    list-style: none;
+}
+.wrap-list li::before {
+    content: "\2022";
+    color: rgb(255, 208, 0);
+    font-weight: bold;
+    font-size: 1.2em;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em; ;
+
+}
+.bitcoin span,.text-orange {
+    color: yellow;
+}
+
+.bitcoin .btn-outline {
+    background-color: rgba(255, 255, 0, 0.781);
+}
+.second-footer .light_logo img {
+    display: block;
+    margin-left: 4.5em;
+}
+
+.footer-top-info .navbar-nav ul {
+ list-style: none;
+}
+footer-top-info .navbar-nav ul li {
+    text-decoration: none;
+}
+.col-clock+img {
+display: block;
+margin: auto;
+width: 45%;
+}
+/* .btn-blo\ {
+    display: block;
+    max-width: 1;
+
+} */
+.btn-block  {
+    max-width: 250px;
+}
+.box-round {
+    border: 2px solid #fff;
+    border-radius: 50px;
+    margin-top: 30px;
+
+}
+
+
+
+
+
+
+
